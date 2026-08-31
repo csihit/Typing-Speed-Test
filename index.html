@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TYPE // SPEED</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>TYPE <span>//</span> SPEED</h1>
+  <p class="subtitle">Typing Speed Test</p>
+
+  <div class="stats">
+    <div class="stat">
+      <small>WPM</small>
+      <b id="wpm">0</b>
+    </div>
+
+    <div class="stat">
+      <small>ACCURACY</small>
+      <b id="accuracy">100%</b>
+    </div>
+
+    <div class="stat">
+      <small>TIME</small>
+      <b id="time">0s</b>
+    </div>
+
+    <div class="stat">
+      <small>ERRORS</small>
+      <b id="errors">0</b>
+    </div>
+  </div>
+
+  <div id="text-display"></div>
+
+  <textarea id="text-input"
+    placeholder="Click here and start typing..."
+    spellcheck="false"></textarea>
+
+  <button id="restart-btn">↻ Restart Test</button>
+
+
+  <!-- RESULT -->
+
+  <div id="result">
+
+    <div class="confetti">✦　✧　✦　✧　✦</div>
+
+    <div class="trophy">🏆</div>
+
+    <h2>Test Complete!</h2>
+
+    <p class="message">
+      👏 Great job! A little more practice will make you faster.
+    </p>
+
+    <div class="result-stats">
+      <div>
+        <b id="final-wpm">0</b>
+        <span>WPM</span>
+      </div>
+
+      <div>
+        <b id="final-accuracy">100%</b>
+        <span>ACCURACY</span>
+      </div>
+
+      <div>
+        <b id="final-time">0s</b>
+        <span>TIME</span>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <h3>✨ Thank You! ✨</h3>
+
+    <p class="thanks">
+      Thanks for taking the typing test.<br>
+      Keep practicing, keep improving & keep typing! 💜
+    </p>
+
+    <button id="again-btn">↻ Run It Again</button>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
